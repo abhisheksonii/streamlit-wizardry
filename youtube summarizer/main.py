@@ -24,7 +24,7 @@ if st.button("Submit", type="primary"):
         temp = []
         for part in final_doc:
             # print(part,end="\n\n")
-            openai.api_key = "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"
+            openai.api_key = ""
             response = openai.chat.completions.create(
                 model = "gpt-3.5-turbo",
                 messages = [
